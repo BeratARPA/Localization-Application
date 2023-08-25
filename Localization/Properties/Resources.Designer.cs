@@ -79,6 +79,15 @@ namespace Localization.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Mesaj göster.
+        /// </summary>
+        public static string button3 {
+            get {
+                return ResourceManager.GetString("button3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Onay kutusu.
         /// </summary>
         public static string checkBox1 {
@@ -93,6 +102,15 @@ namespace Localization.Properties {
         public static string label1 {
             get {
                 return ResourceManager.GetString("label1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Merhaba, ben {0} ve {1} yaşımdayım..
+        /// </summary>
+        public static string message {
+            get {
+                return ResourceManager.GetString("message", resourceCulture);
             }
         }
         

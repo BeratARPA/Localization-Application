@@ -123,11 +123,17 @@
   <data name="button2" xml:space="preserve">
     <value>Güncellemeleri kontrol et</value>
   </data>
+  <data name="button3" xml:space="preserve">
+    <value>Mesaj göster</value>
+  </data>
   <data name="checkBox1" xml:space="preserve">
     <value>Onay kutusu</value>
   </data>
   <data name="label1" xml:space="preserve">
     <value>Etiket</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Merhaba, ben {0} ve {1} yaşımdayım.</value>
   </data>
   <data name="radioButton1" xml:space="preserve">
     <value>Radyo düğmesi</value>

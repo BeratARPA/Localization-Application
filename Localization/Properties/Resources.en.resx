@@ -123,11 +123,17 @@
   <data name="button2" xml:space="preserve">
     <value>Check for updates</value>
   </data>
+  <data name="button3" xml:space="preserve">
+    <value>Show message</value>
+  </data>
   <data name="checkBox1" xml:space="preserve">
     <value>Check box</value>
   </data>
   <data name="label1" xml:space="preserve">
     <value>Label</value>
+  </data>
+  <data name="message" xml:space="preserve">
+    <value>Hi, i'm {0} and {1} years.</value>
   </data>
   <data name="radioButton1" xml:space="preserve">
     <value>Radio button</value>
