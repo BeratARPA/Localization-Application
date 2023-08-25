@@ -13,10 +13,10 @@ namespace LanguageTest
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.Text = "en";
-            UpdateUILanguage(comboBox1.Text);
+            UpdateUILanguage();
         }
 
-        public void UpdateUILanguage(string language)
+        public void UpdateUILanguage()
         {
             button1.Text = GlobalVariables.CultureHelper.GetText("button1");
             button2.Text = GlobalVariables.CultureHelper.GetText("button2");
@@ -29,7 +29,7 @@ namespace LanguageTest
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             GlobalVariables.CultureHelper.ChangeCulture(comboBox1.Text);
-            UpdateUILanguage(comboBox1.Text);
+            UpdateUILanguage();
         }
 
         private void button3_Click(object sender, EventArgs e)
